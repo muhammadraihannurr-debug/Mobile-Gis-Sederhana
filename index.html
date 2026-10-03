@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebGIS Kota Makassar - Leaflet</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="header">
+  <h1>WebGIS Kota Makassar &mdash; Leaflet</h1>
+  <label>Upload layer GeoJSON<input type="file" id="upl" accept=".geojson,.json"></label>
+</div>
+<div id="map"></div>
+<div id="coord">Arahkan kursor ke peta</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data/admin.js"></script>
+<script src="data/tutupan.js"></script>
+<script src="data/jalan.js"></script>
+<script src="data/sungai.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

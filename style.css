@@ -1,0 +1,10 @@
+html, body { margin:0; height:100%; font-family: system-ui, sans-serif; }
+#header { background:#14532d; color:#fff; padding:8px 14px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
+#header h1 { font-size:16px; margin:0; }
+#header label { background:#22c55e; color:#052e16; padding:5px 10px; border-radius:6px; font-size:13px; cursor:pointer; font-weight:600; }
+#header input { display:none; }
+#map { height: calc(100% - 46px); width:100%; }
+#coord { position:absolute; bottom:24px; left:10px; z-index:1000; background:#fffc; padding:3px 8px; border-radius:4px; font-size:12px; }
+.legend { background:#fff; padding:8px 10px; border-radius:6px; font-size:12px; line-height:1.5; box-shadow:0 1px 5px #0004; max-height:50vh; overflow:auto; }
+.legend i { display:inline-block; width:14px; height:10px; margin-right:6px; vertical-align:middle; border:1px solid #6665; }
+.kec-label { background:none; border:none; box-shadow:none; font-weight:700; font-size:11px; color:#111; text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff; white-space:nowrap; }
